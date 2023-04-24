@@ -1,0 +1,176 @@
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+.p2
+{
+    display: flex;
+    background-color: #af599e;
+    color:  #fbfbfb;
+    padding: 10px;
+    border-radius: 35px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px auto;
+    max-width: 200px;
+  }
+
+  .p4 {
+   
+    background-color:rgba(175, 89, 158, 0.3);
+    padding: 30px 20px ;
+    margin: 20% 5px;
+    border-radius: 10px ;
+    
+  }
+  .p3
+  {
+    display: flex;
+    justify-content: center;   
+    align-items: center;  
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+  
+  
+}
+
+  .p5 {
+    
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    max-width: 350px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+
+ header  {
+
+    background-color: #fbfbfb;
+    font-size: 20px;
+    height: 90px;
+    position: fixed;
+    top: 0px;;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+     
+    
+ }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+ .p1{
+     
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 36px;
+
+
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fbfbfb;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    height: 90px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #af599e;
+ 
+    
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* css para header*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.textologo{
+    display: flex;
+    justify-content: flex-end;
+     
+}
+
+.textologo a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+
+
+
