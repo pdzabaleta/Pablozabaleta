@@ -19,7 +19,7 @@ main {
 
 
 
-
+/* P2 corresponde al boton de descarga*/
 .p2
 {
     display: flex;
@@ -34,6 +34,7 @@ main {
     max-width: 200px;
   }
 
+  /*P4 es el fondo de Hablemos*/
   .p4 {
    
     background-color:rgba(175, 89, 158, 0.3);
@@ -42,6 +43,7 @@ main {
     border-radius: 10px ;
     
   }
+ /* P3 es el estilo del texto Hablemos*/
   .p3
   {
     display: flex;
@@ -54,6 +56,7 @@ main {
   
 }
 
+/* P5 es el estilo de la imagen principal*/
   .p5 {
     
     display: block;
@@ -64,6 +67,7 @@ main {
     border-radius: 50%;
   }
 
+/* Estilo de heater*/
 
  header  {
 
@@ -75,18 +79,19 @@ main {
     left: 0;
     right: 0;
     z-index: 9999;
-    
     display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 3px 10px -5px gray
      
     
  }
 
-
+/*fuente*/
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+ /* Estilo de parrafo principal*/
 
  .p1{
      
@@ -100,14 +105,16 @@ main {
 
 }
 
+/*Estilo Imagenes Inferiores*/
+
 div{
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
-    
+    padding: 20px 0px 30px;
     
 }
 
+ /* Estilo footer*/
 
 footer{
     display: flex;
@@ -125,17 +132,18 @@ footer{
 
 }
 
+/* Estilo para parrafos*/
 p{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
     line-height: 1.5;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px 0 20px;
 }
 
-
+/* a incluye 2 etiquetas por defecto que venian al descargar proyecto
+ y tamaño y fuente de link*/
 
 a{
     font-family: 'Lato', sans-serif;
