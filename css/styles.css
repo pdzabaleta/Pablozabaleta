@@ -35,7 +35,7 @@ main {
   }
 
   /*P4 es el fondo de Hablemos*/
-  .p4 {
+  section#contacto {
    
     background-color:rgba(175, 89, 158, 0.3);
     padding: 30px 20px ;
@@ -137,7 +137,7 @@ p{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     line-height: 1.5;
     margin: 0 20px 0 20px;
 }
@@ -170,6 +170,9 @@ a{
 .textologo{
     display: flex;
     justify-content: flex-end;
+    background-color: transparent;
+   
+    
      
 }
 
@@ -178,7 +181,84 @@ a{
   text-decoration: none;
   color: #000000;
   font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+ 
+/* ... Código CSS previo ... */
+
+@media (min-width: 1024px) {
+   h1.p1 {
+    display: block;  
+    font-size: 48px;
+      text-align: left;
+      margin-left: 20px;
+   }
+   section#inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+   article.presentacion{
+    display: block;
+    width: 50%;
+    text-align: left;
+    margin-top: 200px;
+   }
+.destacado {
+    text-align: justify;
+    margin-right: -20%;
+
+}
+.p2 {
+margin-left: 20px;
+}
+h2.p3{
+    font-size: 32px;
+}
+section#contacto {
+margin: 35% 20% 30px 20%;
+
+}
+
+.icon {
+    margin: 50px 20% 50px 20%;
+}
 }
 
 
 
+.textologo a.active, 
+.textologo a:hover {
+    background: rgba(175, 89, 158, 0.5);
+    transition: background-color 2s;
+}
+
+/*
+margin: 150px, 0px, 10px,2px;
+margin: 150px, 0px, 10px,2px;
+
+
+.p1{
+        font-size: 38px;
+        
+    }
+
+    p {
+        font-size: 12px;
+        
+        margin-left: 457px
+        
+    }
+    
+    .p5 {
+        margin: 180px 100px 100px 150px;
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /*
